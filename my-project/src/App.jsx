@@ -23,16 +23,17 @@ function App() {
     <> 
     <div className="w-[100%] 2xl:bg-slate-400 2xl:center ">    
                                 {/* Header Start */}
-<Header/>
+{/* <Header/> */}
                                  {/* Header End */}
 
                                 {/* Navbar Start */}
-<MyNavbar/>
+{/* <MyNavbar/> */}
                                 {/* Navbar End */}
 
                                 {/* Hero Start */}
-                                <Hero/>
+                                {/* <Hero/> */}
                                 {/* Hero End */}
+                                <div className="flex mx-auto  flex-wrap gap-3 my-14 container justify-center">
                                 <AddToCard
                                   discount={"2"}
                                   productName={"abcd"}
@@ -42,10 +43,28 @@ function App() {
                                 
                                 
                                 />
+                                <AddToCard
+                                  discount={"2"}
+                                  productName={"abcd"}
+                                  delPrice={"2.1"}
+                                  newPrice={"1"}
+                                  starRank={"2"}
+                                
+                                
+                                /><AddToCard
+                                discount={"2"}
+                                productName={"abcd"}
+                                delPrice={"2.1"}
+                                newPrice={"1"}
+                                starRank={"2"}
+                              
+                              
+                              />
+                              </div>
 
 
                           {/* AddToCard Work Start */}
-                          <MyFooter/>
+                          {/* <MyFooter/> */}
 
     {/* <div className="card flex ">
     {
